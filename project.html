@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-green-600 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Waste Management</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#home" class="hover:underline">Home</a></li>
+            <li><a href="#services" class="hover:underline">Services</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="text-center py-20 bg-green-200">
+        <h2 class="text-4xl font-bold">Efficient Waste Management Solutions</h2>
+        <p class="mt-4 text-lg">Join us in making the world a cleaner place.</p>
+        <button class="mt-6 bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Get Started</button>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="p-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Our Services</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Recycling Services</h3>
+                <p class="mt-2">We provide efficient recycling solutions to reduce waste.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Garbage Collection</h3>
+                <p class="mt-2">Reliable waste collection to keep your surroundings clean.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Eco-friendly Disposal</h3>
+                <p class="mt-2">Safe and sustainable waste disposal methods.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="p-10 bg-green-200 text-center">
+        <h2 class="text-3xl font-bold">Contact Us</h2>
+        <p class="mt-4">Reach out for any waste management needs.</p>
+        <form class="mt-6 max-w-md mx-auto bg-white p-6 rounded shadow">
+            <input type="text" placeholder="Your Name" class="w-full p-2 border rounded mb-4">
+            <input type="email" placeholder="Your Email" class="w-full p-2 border rounded mb-4">
+            <textarea placeholder="Your Message" class="w-full p-2 border rounded mb-4"></textarea>
+            <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
